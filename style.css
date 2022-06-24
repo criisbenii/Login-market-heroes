@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    /*reset en los estilos que da html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(116.63deg, #C31CD1 0.28%, rgba(0, 102, 159, 0) 100%), linear-gradient(243.18deg, #00669F 0%, rgba(28, 209, 176, 0) 100%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+form {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 600px;
+    margin-top: -10%;
+    padding: 30px;
+    filter: drop-shadow(10px 12px 4px rgba(0, 0, 0, 0.5));
+}
+.logo{
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+.contenedor {
+    position: relative;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 2rem;
+}
+
+.fa-solid {
+    color: white;
+}
+a{
+    color: white;
+    font-family:'Roboto', sans-serif;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    /*color: rgb(129, 119, 119);*/
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+    /*background-color: rgba(255, 255, 255, 0.507);*/
+    background: linear-gradient(116.63deg, #C31CD1 0.28%, rgba(0, 102, 159, 0) 100%), linear-gradient(243.18deg, #00669F 0%, rgba(28, 209, 176, 0.5) 100%);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.social{
+        color: white;
+        text-align: center;
+        font-size: 30px;    
+}
+.social p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    text-decoration:underline;
+    padding: 5px;
+}
+
